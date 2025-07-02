@@ -1,0 +1,17 @@
+fn main() {
+    const A: i32 = 42;
+    const B: f64 = 3.14159;
+    const C: char = 'A';
+    const D: bool = true;
+    const E: &str = "Hello, Rust!";
+    const F: [i32; 3] = [10, 20, 30];
+    const G: (i32, f64, char) = (42, 3.14, 'R');
+
+    println!("Integer constant: {}", A);
+    println!("Floating point constant: {}", B);
+    println!("Character constant: {}", C);
+    println!("Boolean constant: {}", D);
+    println!("String constant: {}", E);
+    println!("Array constant: {:?}", F);
+    println!("Tuple constant: {:?}", G);
+}
