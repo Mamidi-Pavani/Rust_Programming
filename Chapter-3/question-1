@@ -1,0 +1,6 @@
+fn main() {
+   let a="pavani";
+   if a == "pavani" { 
+         println!("Yes, I'm Pavani!");
+      }
+}
