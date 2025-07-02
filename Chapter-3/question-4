@@ -1,11 +1,10 @@
 fn main() {
-    // define a scrutinee expression    
     let a = ("Mamidi", "Pavani","CSE");
-    // pattern matches with the scrutinee expression
+
     if let ("Mamidi", "Pavani","CSE") = a {
         println!("Wrote all values in pattern to be matched with the scrutinee expression");
     } else {
-        // do not execute this block
+     
         println!("Value unmatched");
     }
 }
